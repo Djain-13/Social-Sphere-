@@ -1,0 +1,95 @@
+{% extends "layout.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block styles %}
+    <style>
+        .header { text-align: center; margin-bottom: 16px; }
+        .metrics { display: grid; gap: 20px; grid-template-columns: repeat(4, minmax(0, 1fr)); margin-bottom: 24px; }
+        @media (max-width: 1024px) { .metrics { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 640px) { .metrics { grid-template-columns: 1fr; } }
+        .metric-card { position: relative; text-align: center; overflow: hidden; transition: transform .15s ease, box-shadow .2s ease; }
+        .metric-card::after { content: ""; position: absolute; inset: 0; background: radial-gradient(1200px 80px at -10% -10%, rgba(37,99,235,.08), transparent 40%); pointer-events: none; }
+        .metric-card:hover { transform: translateY(-2px); box-shadow: 0 10px 22px rgba(0,0,0,.08); }
+        .metric-icon { font-size: 1.4rem; margin-bottom: 6px; }
+        .metric-card h3 { margin: 0; color: var(--muted); font-weight: 600; letter-spacing: .2px; }
+        .metric-card p { font-size: 2.2em; margin: 6px 0 0 0; color: var(--primary); font-weight: 800; }
+        .metric-card .sub { color: var(--muted); font-size: .85rem; margin-top: 6px; }
+        .metric-card { animation: fadeUp .4s ease both; }
+        .metrics .metric-card:nth-child(1) { animation-delay: .02s; }
+        .metrics .metric-card:nth-child(2) { animation-delay: .06s; }
+        .metrics .metric-card:nth-child(3) { animation-delay: .1s; }
+        .metrics .metric-card:nth-child(4) { animation-delay: .14s; }
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+        .table-wrap { overflow: auto; border-radius: 12px; border: 1px solid var(--border); }
+        table { width: 100%; border-collapse: collapse; background: var(--card); }
+        th, td { padding: 14px; border-bottom: 1px solid var(--border); text-align: left; white-space: nowrap; }
+        thead th { background: linear-gradient(180deg, rgba(37,99,235,.08), transparent); color: var(--text); }
+        tbody tr:hover { background: rgba(37,99,235,.06); }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="header">
+            <h1>Performance Dashboard</h1>
+            <p style="color: var(--muted);">Overview of key campaign metrics</p>
+        </div>
+
+        <div class="metrics">
+            <div class="metric-card card card-pad">
+                <div class="metric-icon">💰</div>
+                <h3>Total Budget</h3>
+                <p>${{ total_budget }}</p>
+                <div class="sub">All campaigns</div>
+            </div>
+            <div class="metric-card card card-pad">
+                <div class="metric-icon">👀</div>
+                <h3>Total Impressions</h3>
+                <p>{{ total_impressions }}</p>
+                <div class="sub">Cumulative reach</div>
+            </div>
+            <div class="metric-card card card-pad">
+                <div class="metric-icon">🖱️</div>
+                <h3>Total Clicks</h3>
+                <p>{{ total_clicks }}</p>
+                <div class="sub">All-time clicks</div>
+            </div>
+            <div class="metric-card card card-pad">
+                <div class="metric-icon">🛒</div>
+                <h3>Total Purchases</h3>
+                <p>{{ total_purchases }}</p>
+                <div class="sub">Conversions</div>
+            </div>
+        </div>
+
+        <div class="card" style="padding: 16px; margin-top: 10px;">
+            <h2 style="margin: 6px 8px 12px 8px;">Campaigns Overview</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Campaign Name</th>
+                            <th>Budget</th>
+                            <th>Duration (Days)</th>
+                            <th>Clicks</th>
+                            <th>Purchases</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for campaign in campaigns %}
+                        <tr>
+                            <td>{{ campaign.name }}</td>
+                            <td>${{ "%.2f"|format(campaign.total_budget) }}</td>
+                            <td>{{ campaign.duration_days }}</td>
+                            <td>{{ campaign.Click }}</td>
+                            <td>{{ campaign.Purchase }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}

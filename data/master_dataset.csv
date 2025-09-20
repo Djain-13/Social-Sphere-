@@ -1,0 +1,201 @@
+ad_id,campaign_id,ad_platform,ad_type,target_gender,target_age_group,target_interests,name,start_date,end_date,duration_days,total_budget,Click,Comment,Impression,Like,Purchase,Share
+1,28,Facebook,Video,Female,35-44,"art, technology",Campaign_28_Winter,2025-05-09,2025-06-30,52,32844.79,212,25,1743,56,8,8
+2,33,Facebook,Stories,All,25-34,"travel, photography",Campaign_33_Summer,2025-04-08,2025-07-04,87,59264.68,205,23,1751,56,13,10
+3,20,Instagram,Carousel,All,25-34,technology,Campaign_20_Winter,2025-02-17,2025-05-18,90,98904.66,225,27,1655,68,13,8
+4,28,Facebook,Stories,Female,25-34,news,Campaign_28_Winter,2025-05-09,2025-06-30,52,32844.79,198,30,1737,56,12,10
+5,24,Instagram,Image,Female,25-34,news,Campaign_24_Summer,2025-03-30,2025-05-23,54,56692.87,211,22,1693,60,11,8
+6,33,Facebook,Video,Male,25-34,"finance, health",Campaign_33_Summer,2025-04-08,2025-07-04,87,59264.68,234,24,1746,61,10,12
+7,9,Facebook,Image,Female,18-24,"fashion, gaming",Campaign_9_Launch,2025-05-25,2025-07-13,49,40094.07,197,19,1675,61,8,11
+8,13,Facebook,Carousel,All,25-34,technology,Campaign_13_Winter,2025-04-19,2025-07-01,73,21855.42,206,28,1709,62,9,5
+9,49,Instagram,Stories,All,35-44,"fitness, lifestyle",Campaign_49_Winter,2025-02-21,2025-05-17,85,28962.34,195,18,1738,58,9,9
+10,17,Facebook,Stories,Female,18-24,art,Campaign_17_Launch,2025-04-22,2025-07-18,87,86675.92,186,34,1692,81,10,11
+11,37,Facebook,Carousel,All,35-44,fashion,Campaign_37_Launch,2025-05-18,2025-08-01,75,46445.2,200,13,1725,66,9,10
+12,45,Facebook,Stories,Female,35-44,"gaming, technology",Campaign_45_Summer,2025-05-26,2025-08-05,71,53303.55,178,12,1680,55,10,12
+13,6,Facebook,Stories,Female,All,"health, food",Campaign_6_Winter,2025-06-21,2025-09-13,84,78607.49,188,21,1716,65,16,12
+14,21,Instagram,Image,Female,35-44,"finance, lifestyle",Campaign_21_Winter,2025-04-19,2025-06-22,64,37290.81,214,25,1688,54,14,9
+15,28,Facebook,Stories,All,All,fashion,Campaign_28_Winter,2025-05-09,2025-06-30,52,32844.79,198,20,1657,48,10,11
+16,18,Facebook,Video,Female,35-44,"food, gaming",Campaign_18_Q3,2025-04-19,2025-06-15,57,48832.61,184,22,1655,73,8,10
+17,48,Instagram,Image,All,35-44,"sports, travel",Campaign_48_Winter,2025-04-08,2025-06-01,54,13842.07,206,16,1694,65,7,6
+18,30,Facebook,Video,Male,18-24,photography,Campaign_30_Winter,2025-02-25,2025-05-10,74,73911.29,219,18,1664,59,9,3
+19,3,Facebook,Video,Female,18-24,gaming,Campaign_3_Winter,2025-05-04,2025-06-29,56,14343.25,194,22,1686,58,9,10
+20,38,Instagram,Image,Male,35-44,"art, travel",Campaign_38_Q3,2025-04-21,2025-05-27,36,71038.28,225,23,1664,59,8,10
+21,22,Instagram,Video,All,25-34,art,Campaign_22_Q3,2025-03-17,2025-04-22,36,35743.4,219,20,1668,70,7,8
+22,30,Facebook,Stories,Male,35-44,finance,Campaign_30_Winter,2025-02-25,2025-05-10,74,73911.29,202,16,1769,55,13,11
+23,33,Facebook,Image,All,18-24,news,Campaign_33_Summer,2025-04-08,2025-07-04,87,59264.68,196,22,1705,51,9,10
+24,23,Facebook,Video,Female,All,technology,Campaign_23_Winter,2025-07-10,2025-10-02,84,26001.67,176,27,1640,52,13,17
+25,29,Facebook,Video,Male,25-34,"travel, technology",Campaign_29_Winter,2025-07-16,2025-10-06,82,19773.66,206,27,1698,55,14,11
+26,42,Facebook,Image,Female,All,"gaming, health",Campaign_42_Summer,2025-06-08,2025-07-25,47,7918.04,172,20,1710,62,5,6
+27,4,Instagram,Video,Female,All,"health, fashion",Campaign_4_Summer,2025-06-04,2025-08-08,65,45326.6,199,21,1738,66,6,10
+28,48,Facebook,Image,Female,25-34,"finance, travel",Campaign_48_Winter,2025-04-08,2025-06-01,54,13842.07,194,22,1676,52,10,9
+29,23,Instagram,Carousel,All,18-24,"lifestyle, news",Campaign_23_Winter,2025-07-10,2025-10-02,84,26001.67,225,22,1641,62,17,10
+30,49,Facebook,Carousel,Female,25-34,sports,Campaign_49_Winter,2025-02-21,2025-05-17,85,28962.34,187,20,1692,61,9,8
+31,21,Facebook,Image,Female,25-34,fashion,Campaign_21_Winter,2025-04-19,2025-06-22,64,37290.81,186,16,1672,59,15,11
+32,29,Instagram,Stories,All,18-24,sports,Campaign_29_Winter,2025-07-16,2025-10-06,82,19773.66,191,22,1727,58,6,9
+33,15,Instagram,Carousel,Female,All,photography,Campaign_15_Launch,2025-03-21,2025-06-11,82,85407.23,201,14,1664,68,8,13
+34,26,Instagram,Stories,Female,35-44,"sports, technology",Campaign_26_Winter,2025-04-01,2025-06-17,77,44538.87,194,16,1685,69,10,8
+35,18,Instagram,Image,Female,25-34,"travel, finance",Campaign_18_Q3,2025-04-19,2025-06-15,57,48832.61,190,22,1708,68,5,9
+36,37,Facebook,Video,Male,18-24,"gaming, health",Campaign_37_Launch,2025-05-18,2025-08-01,75,46445.2,179,19,1700,61,12,10
+37,46,Facebook,Carousel,All,35-44,"gaming, travel",Campaign_46_Winter,2025-05-10,2025-08-07,89,94023.76,194,13,1674,65,11,13
+38,2,Facebook,Stories,Male,25-34,"finance, technology",Campaign_2_Launch,2025-04-16,2025-07-07,82,79342.41,195,25,1756,46,14,7
+39,34,Instagram,Stories,All,35-44,"lifestyle, gaming",Campaign_34_Winter,2025-07-10,2025-09-08,60,26104.3,194,12,1653,45,14,8
+40,21,Facebook,Stories,All,All,"health, finance",Campaign_21_Winter,2025-04-19,2025-06-22,64,37290.81,202,27,1674,65,12,8
+41,38,Facebook,Carousel,All,25-34,photography,Campaign_38_Q3,2025-04-21,2025-05-27,36,71038.28,197,17,1734,63,10,6
+42,19,Facebook,Video,Female,25-34,health,Campaign_19_Winter,2025-03-06,2025-05-15,70,33182.45,196,24,1683,59,8,9
+43,35,Facebook,Video,All,All,fitness,Campaign_35_Launch,2025-07-23,2025-10-12,81,71626.83,199,22,1686,46,11,7
+44,40,Facebook,Video,Female,18-24,"fashion, gaming",Campaign_40_Summer,2025-03-04,2025-04-20,47,53936.41,199,25,1681,69,8,8
+45,38,Facebook,Carousel,Female,All,"sports, gaming",Campaign_38_Q3,2025-04-21,2025-05-27,36,71038.28,185,25,1729,60,12,14
+46,10,Instagram,Carousel,All,35-44,"technology, travel",Campaign_10_Winter,2025-05-17,2025-07-21,65,19669.27,176,14,1678,55,14,8
+47,17,Instagram,Image,Female,35-44,"fitness, sports",Campaign_17_Launch,2025-04-22,2025-07-18,87,86675.92,213,19,1663,66,13,10
+48,42,Facebook,Carousel,All,All,"finance, lifestyle",Campaign_42_Summer,2025-06-08,2025-07-25,47,7918.04,188,17,1721,43,8,8
+49,11,Facebook,Stories,All,25-34,finance,Campaign_11_Q3,2025-04-24,2025-07-02,69,79067.91,203,15,1726,53,12,9
+50,5,Instagram,Stories,Female,35-44,news,Campaign_5_Launch,2025-07-11,2025-08-28,48,68376.69,214,21,1754,72,8,8
+51,26,Instagram,Carousel,All,18-24,photography,Campaign_26_Winter,2025-04-01,2025-06-17,77,44538.87,188,24,1748,74,14,8
+52,2,Instagram,Stories,Female,35-44,"health, lifestyle",Campaign_2_Launch,2025-04-16,2025-07-07,82,79342.41,197,21,1714,65,8,9
+53,13,Facebook,Stories,Female,25-34,sports,Campaign_13_Winter,2025-04-19,2025-07-01,73,21855.42,199,18,1739,60,15,8
+54,29,Instagram,Image,Female,25-34,"technology, travel",Campaign_29_Winter,2025-07-16,2025-10-06,82,19773.66,207,19,1679,57,5,4
+55,39,Instagram,Carousel,Male,35-44,gaming,Campaign_39_Q3,2025-05-18,2025-07-27,70,55638.18,217,18,1741,52,10,8
+56,1,Instagram,Stories,Female,35-44,news,Campaign_1_Launch,2025-05-25,2025-07-23,59,24021.32,187,13,1719,74,17,8
+57,32,Instagram,Video,Female,All,lifestyle,Campaign_32_Summer,2025-05-02,2025-06-14,43,81744.53,200,17,1747,62,10,10
+58,39,Facebook,Image,Male,18-24,"travel, health",Campaign_39_Q3,2025-05-18,2025-07-27,70,55638.18,224,23,1681,71,8,15
+59,31,Instagram,Stories,Male,18-24,lifestyle,Campaign_31_Summer,2025-05-27,2025-07-22,56,72208.34,199,24,1700,51,15,7
+60,38,Facebook,Stories,All,35-44,health,Campaign_38_Q3,2025-04-21,2025-05-27,36,71038.28,194,24,1718,60,14,9
+61,38,Instagram,Carousel,All,35-44,"sports, photography",Campaign_38_Q3,2025-04-21,2025-05-27,36,71038.28,218,20,1520,76,13,10
+62,20,Facebook,Image,Male,All,"fashion, lifestyle",Campaign_20_Winter,2025-02-17,2025-05-18,90,98904.66,189,21,1711,58,12,10
+63,3,Facebook,Video,Male,35-44,"sports, lifestyle",Campaign_3_Winter,2025-05-04,2025-06-29,56,14343.25,202,21,1670,59,13,8
+64,33,Facebook,Stories,Female,18-24,news,Campaign_33_Summer,2025-04-08,2025-07-04,87,59264.68,192,22,1747,58,13,11
+65,4,Facebook,Stories,Female,All,finance,Campaign_4_Summer,2025-06-04,2025-08-08,65,45326.6,191,22,1731,62,10,11
+66,22,Facebook,Video,All,All,"photography, finance",Campaign_22_Q3,2025-03-17,2025-04-22,36,35743.4,218,23,1756,71,15,8
+67,40,Facebook,Carousel,All,18-24,"technology, travel",Campaign_40_Summer,2025-03-04,2025-04-20,47,53936.41,197,19,1704,74,12,6
+68,17,Facebook,Image,All,18-24,sports,Campaign_17_Launch,2025-04-22,2025-07-18,87,86675.92,230,25,1617,67,15,13
+69,13,Facebook,Stories,Female,18-24,health,Campaign_13_Winter,2025-04-19,2025-07-01,73,21855.42,205,22,1692,68,11,11
+70,42,Facebook,Stories,Female,18-24,"travel, technology",Campaign_42_Summer,2025-06-08,2025-07-25,47,7918.04,198,18,1815,61,11,9
+71,21,Facebook,Stories,Male,All,"art, fashion",Campaign_21_Winter,2025-04-19,2025-06-22,64,37290.81,209,16,1684,66,8,8
+72,32,Facebook,Image,All,35-44,travel,Campaign_32_Summer,2025-05-02,2025-06-14,43,81744.53,216,17,1719,54,2,9
+73,47,Facebook,Stories,Female,25-34,fitness,Campaign_47_Launch,2025-06-17,2025-09-03,78,69493.36,198,18,1667,59,11,8
+74,17,Instagram,Image,Female,18-24,"finance, lifestyle",Campaign_17_Launch,2025-04-22,2025-07-18,87,86675.92,209,21,1674,46,7,9
+75,37,Facebook,Stories,Female,18-24,news,Campaign_37_Launch,2025-05-18,2025-08-01,75,46445.2,202,15,1686,57,11,10
+76,11,Facebook,Video,Female,18-24,"technology, news",Campaign_11_Q3,2025-04-24,2025-07-02,69,79067.91,207,22,1665,59,13,9
+77,4,Facebook,Stories,Male,35-44,"fashion, photography",Campaign_4_Summer,2025-06-04,2025-08-08,65,45326.6,186,21,1663,62,13,14
+78,26,Facebook,Image,Female,18-24,"gaming, photography",Campaign_26_Winter,2025-04-01,2025-06-17,77,44538.87,182,23,1691,56,13,12
+79,17,Instagram,Carousel,Female,25-34,"travel, art",Campaign_17_Launch,2025-04-22,2025-07-18,87,86675.92,207,20,1718,47,15,11
+80,46,Facebook,Stories,Male,35-44,lifestyle,Campaign_46_Winter,2025-05-10,2025-08-07,89,94023.76,199,28,1706,65,1,11
+81,29,Instagram,Carousel,All,25-34,"fitness, photography",Campaign_29_Winter,2025-07-16,2025-10-06,82,19773.66,215,13,1603,61,10,5
+82,24,Facebook,Stories,Female,18-24,food,Campaign_24_Summer,2025-03-30,2025-05-23,54,56692.87,205,13,1668,44,13,14
+83,29,Facebook,Video,All,All,"health, art",Campaign_29_Winter,2025-07-16,2025-10-06,82,19773.66,210,20,1649,54,10,14
+84,8,Facebook,Image,Female,35-44,health,Campaign_8_Q3,2025-02-25,2025-04-07,41,39953.19,197,15,1708,59,8,7
+85,20,Facebook,Carousel,Female,18-24,"finance, sports",Campaign_20_Winter,2025-02-17,2025-05-18,90,98904.66,216,17,1748,53,13,7
+86,20,Facebook,Image,Female,All,"fashion, gaming",Campaign_20_Winter,2025-02-17,2025-05-18,90,98904.66,207,16,1648,62,7,7
+87,31,Instagram,Image,All,18-24,"health, fashion",Campaign_31_Summer,2025-05-27,2025-07-22,56,72208.34,196,20,1700,71,14,6
+88,20,Facebook,Image,Female,25-34,"news, travel",Campaign_20_Winter,2025-02-17,2025-05-18,90,98904.66,185,19,1678,56,9,11
+89,1,Facebook,Carousel,Female,25-34,finance,Campaign_1_Launch,2025-05-25,2025-07-23,59,24021.32,191,17,1685,66,6,6
+90,18,Instagram,Stories,Male,35-44,"fitness, gaming",Campaign_18_Q3,2025-04-19,2025-06-15,57,48832.61,221,23,1678,46,8,9
+91,37,Facebook,Video,All,18-24,"travel, gaming",Campaign_37_Launch,2025-05-18,2025-08-01,75,46445.2,195,19,1739,52,11,17
+92,4,Facebook,Carousel,Female,35-44,gaming,Campaign_4_Summer,2025-06-04,2025-08-08,65,45326.6,196,21,1692,55,6,17
+93,34,Instagram,Carousel,Male,All,fashion,Campaign_34_Winter,2025-07-10,2025-09-08,60,26104.3,207,20,1752,61,13,13
+94,14,Facebook,Video,Female,35-44,news,Campaign_14_Summer,2025-04-15,2025-06-04,50,39849.94,180,13,1639,62,15,12
+95,36,Instagram,Image,All,25-34,fashion,Campaign_36_Q3,2025-03-07,2025-05-13,67,58801.99,209,24,1689,57,3,7
+96,24,Facebook,Stories,Male,35-44,news,Campaign_24_Summer,2025-03-30,2025-05-23,54,56692.87,210,23,1672,56,11,9
+97,45,Instagram,Image,All,25-34,"health, sports",Campaign_45_Summer,2025-05-26,2025-08-05,71,53303.55,174,20,1663,57,9,6
+98,3,Facebook,Stories,Female,18-24,"sports, finance",Campaign_3_Winter,2025-05-04,2025-06-29,56,14343.25,189,14,1662,63,11,14
+99,8,Facebook,Image,Female,35-44,"photography, fitness",Campaign_8_Q3,2025-02-25,2025-04-07,41,39953.19,211,31,1681,49,7,13
+100,50,Instagram,Image,Female,25-34,"art, photography",Campaign_50_Summer,2025-07-02,2025-08-03,32,47274.7,179,13,1707,91,8,7
+101,42,Facebook,Video,All,18-24,art,Campaign_42_Summer,2025-06-08,2025-07-25,47,7918.04,204,25,1783,65,12,7
+102,46,Facebook,Image,All,25-34,"food, fashion",Campaign_46_Winter,2025-05-10,2025-08-07,89,94023.76,197,22,1784,65,11,12
+103,22,Facebook,Stories,Female,35-44,"health, fitness",Campaign_22_Q3,2025-03-17,2025-04-22,36,35743.4,199,20,1742,62,11,5
+104,20,Facebook,Carousel,All,18-24,food,Campaign_20_Winter,2025-02-17,2025-05-18,90,98904.66,211,17,1777,53,9,7
+105,25,Instagram,Image,All,35-44,art,Campaign_25_Winter,2025-06-07,2025-09-04,89,52725.49,209,12,1756,60,11,14
+106,22,Facebook,Stories,Female,All,"news, fashion",Campaign_22_Q3,2025-03-17,2025-04-22,36,35743.4,232,21,1706,69,12,11
+107,25,Instagram,Carousel,All,25-34,fashion,Campaign_25_Winter,2025-06-07,2025-09-04,89,52725.49,177,20,1702,72,7,4
+108,37,Facebook,Carousel,Male,18-24,photography,Campaign_37_Launch,2025-05-18,2025-08-01,75,46445.2,200,34,1671,64,8,11
+109,8,Facebook,Stories,All,35-44,"travel, fashion",Campaign_8_Q3,2025-02-25,2025-04-07,41,39953.19,193,22,1679,65,8,12
+110,23,Instagram,Image,Male,18-24,"fitness, finance",Campaign_23_Winter,2025-07-10,2025-10-02,84,26001.67,204,13,1730,67,12,8
+111,42,Facebook,Stories,Female,All,lifestyle,Campaign_42_Summer,2025-06-08,2025-07-25,47,7918.04,209,12,1635,66,9,11
+112,15,Facebook,Video,All,35-44,food,Campaign_15_Launch,2025-03-21,2025-06-11,82,85407.23,207,19,1724,62,7,8
+113,15,Instagram,Image,Female,18-24,"fitness, finance",Campaign_15_Launch,2025-03-21,2025-06-11,82,85407.23,212,22,1673,51,5,10
+114,38,Facebook,Stories,Female,18-24,"news, health",Campaign_38_Q3,2025-04-21,2025-05-27,36,71038.28,185,24,1708,66,13,17
+115,24,Facebook,Carousel,Female,All,"lifestyle, technology",Campaign_24_Summer,2025-03-30,2025-05-23,54,56692.87,195,18,1711,53,4,13
+116,4,Facebook,Video,All,All,lifestyle,Campaign_4_Summer,2025-06-04,2025-08-08,65,45326.6,195,18,1727,48,5,15
+117,42,Facebook,Stories,All,18-24,"finance, travel",Campaign_42_Summer,2025-06-08,2025-07-25,47,7918.04,212,36,1660,53,7,16
+118,8,Facebook,Stories,All,All,"health, sports",Campaign_8_Q3,2025-02-25,2025-04-07,41,39953.19,178,18,1725,58,10,11
+119,44,Instagram,Carousel,All,35-44,health,Campaign_44_Q3,2025-07-14,2025-09-22,70,15914.87,204,21,1678,63,12,11
+120,17,Facebook,Image,Male,All,news,Campaign_17_Launch,2025-04-22,2025-07-18,87,86675.92,209,21,1699,48,13,11
+121,25,Facebook,Video,Male,35-44,news,Campaign_25_Winter,2025-06-07,2025-09-04,89,52725.49,201,22,1741,55,13,8
+122,10,Facebook,Stories,All,35-44,health,Campaign_10_Winter,2025-05-17,2025-07-21,65,19669.27,209,15,1698,70,17,10
+123,33,Facebook,Carousel,All,18-24,"finance, sports",Campaign_33_Summer,2025-04-08,2025-07-04,87,59264.68,179,24,1743,61,12,10
+124,34,Instagram,Image,Female,All,"technology, lifestyle",Campaign_34_Winter,2025-07-10,2025-09-08,60,26104.3,216,20,1752,69,10,13
+125,32,Instagram,Carousel,Female,18-24,photography,Campaign_32_Summer,2025-05-02,2025-06-14,43,81744.53,176,26,1797,70,7,10
+126,38,Facebook,Carousel,All,25-34,art,Campaign_38_Q3,2025-04-21,2025-05-27,36,71038.28,195,22,1698,54,15,10
+127,47,Facebook,Stories,Female,All,"gaming, travel",Campaign_47_Launch,2025-06-17,2025-09-03,78,69493.36,202,27,1664,60,7,5
+128,41,Instagram,Carousel,Male,18-24,"fitness, art",Campaign_41_Winter,2025-04-02,2025-06-12,71,85220.35,214,29,1666,60,8,7
+129,10,Facebook,Carousel,Female,35-44,sports,Campaign_10_Winter,2025-05-17,2025-07-21,65,19669.27,187,19,1643,52,12,8
+130,22,Facebook,Image,Female,25-34,food,Campaign_22_Q3,2025-03-17,2025-04-22,36,35743.4,216,17,1641,57,6,10
+131,17,Facebook,Image,Male,25-34,photography,Campaign_17_Launch,2025-04-22,2025-07-18,87,86675.92,188,22,1702,63,8,13
+132,1,Facebook,Carousel,Female,18-24,news,Campaign_1_Launch,2025-05-25,2025-07-23,59,24021.32,200,20,1641,48,10,11
+133,30,Facebook,Video,Male,All,"technology, health",Campaign_30_Winter,2025-02-25,2025-05-10,74,73911.29,206,27,1660,57,12,11
+134,25,Facebook,Image,Female,All,"health, gaming",Campaign_25_Winter,2025-06-07,2025-09-04,89,52725.49,198,19,1744,60,8,12
+135,47,Instagram,Stories,Male,18-24,sports,Campaign_47_Launch,2025-06-17,2025-09-03,78,69493.36,187,23,1655,55,8,9
+136,7,Facebook,Stories,Female,35-44,fashion,Campaign_7_Winter,2025-05-25,2025-08-05,72,43744.59,212,25,1659,61,13,16
+137,7,Facebook,Image,Female,All,health,Campaign_7_Winter,2025-05-25,2025-08-05,72,43744.59,190,17,1657,61,11,9
+138,7,Instagram,Stories,All,18-24,food,Campaign_7_Winter,2025-05-25,2025-08-05,72,43744.59,203,23,1686,62,9,7
+139,12,Facebook,Stories,Male,18-24,photography,Campaign_12_Q3,2025-03-08,2025-06-01,85,30525.65,229,18,1719,55,11,5
+140,2,Facebook,Image,Female,All,photography,Campaign_2_Launch,2025-04-16,2025-07-07,82,79342.41,207,18,1785,61,9,9
+141,44,Instagram,Stories,Male,35-44,travel,Campaign_44_Q3,2025-07-14,2025-09-22,70,15914.87,198,13,1732,71,9,9
+142,29,Facebook,Image,All,All,"finance, news",Campaign_29_Winter,2025-07-16,2025-10-06,82,19773.66,189,17,1679,72,6,7
+143,10,Facebook,Stories,Female,35-44,"health, fitness",Campaign_10_Winter,2025-05-17,2025-07-21,65,19669.27,191,31,1642,54,8,12
+144,34,Instagram,Stories,Female,18-24,"fitness, health",Campaign_34_Winter,2025-07-10,2025-09-08,60,26104.3,211,19,1652,59,5,4
+145,20,Facebook,Carousel,Male,25-34,travel,Campaign_20_Winter,2025-02-17,2025-05-18,90,98904.66,239,18,1646,53,4,9
+146,4,Facebook,Video,Female,All,gaming,Campaign_4_Summer,2025-06-04,2025-08-08,65,45326.6,211,18,1698,63,9,7
+147,38,Facebook,Carousel,All,35-44,finance,Campaign_38_Q3,2025-04-21,2025-05-27,36,71038.28,194,21,1654,57,11,13
+148,8,Facebook,Carousel,Male,All,"finance, photography",Campaign_8_Q3,2025-02-25,2025-04-07,41,39953.19,216,19,1709,76,14,12
+149,11,Facebook,Stories,All,18-24,"health, fitness",Campaign_11_Q3,2025-04-24,2025-07-02,69,79067.91,208,17,1704,61,12,12
+150,24,Facebook,Carousel,All,All,sports,Campaign_24_Summer,2025-03-30,2025-05-23,54,56692.87,204,26,1699,57,13,10
+151,34,Facebook,Carousel,All,35-44,fashion,Campaign_34_Winter,2025-07-10,2025-09-08,60,26104.3,208,18,1728,58,12,11
+152,24,Instagram,Carousel,Male,18-24,"gaming, news",Campaign_24_Summer,2025-03-30,2025-05-23,54,56692.87,177,18,1707,70,8,7
+153,46,Facebook,Video,All,18-24,photography,Campaign_46_Winter,2025-05-10,2025-08-07,89,94023.76,186,24,1641,64,7,12
+154,27,Instagram,Stories,Female,All,"fitness, technology",Campaign_27_Q3,2025-02-13,2025-04-02,48,12986.3,194,22,1676,74,18,12
+155,30,Facebook,Video,All,25-34,food,Campaign_30_Winter,2025-02-25,2025-05-10,74,73911.29,209,18,1687,61,8,13
+156,33,Instagram,Video,Female,18-24,"fitness, health",Campaign_33_Summer,2025-04-08,2025-07-04,87,59264.68,215,19,1660,67,12,15
+157,32,Instagram,Stories,Male,All,"news, sports",Campaign_32_Summer,2025-05-02,2025-06-14,43,81744.53,209,22,1673,42,8,15
+158,24,Instagram,Carousel,Female,18-24,fashion,Campaign_24_Summer,2025-03-30,2025-05-23,54,56692.87,166,19,1739,55,10,15
+159,13,Instagram,Stories,All,25-34,"finance, travel",Campaign_13_Winter,2025-04-19,2025-07-01,73,21855.42,206,23,1744,68,8,14
+160,42,Instagram,Stories,All,25-34,"news, art",Campaign_42_Summer,2025-06-08,2025-07-25,47,7918.04,204,13,1668,66,7,11
+161,15,Facebook,Image,Female,18-24,"art, finance",Campaign_15_Launch,2025-03-21,2025-06-11,82,85407.23,183,14,1681,61,13,10
+162,6,Instagram,Carousel,All,35-44,gaming,Campaign_6_Winter,2025-06-21,2025-09-13,84,78607.49,187,21,1704,75,7,9
+163,29,Facebook,Carousel,Female,25-34,photography,Campaign_29_Winter,2025-07-16,2025-10-06,82,19773.66,206,18,1669,64,7,9
+164,25,Instagram,Stories,Male,25-34,fashion,Campaign_25_Winter,2025-06-07,2025-09-04,89,52725.49,213,27,1723,67,13,10
+165,6,Facebook,Carousel,Male,25-34,gaming,Campaign_6_Winter,2025-06-21,2025-09-13,84,78607.49,197,17,1701,61,10,4
+166,14,Instagram,Image,All,All,fashion,Campaign_14_Summer,2025-04-15,2025-06-04,50,39849.94,198,20,1674,56,7,9
+167,42,Instagram,Carousel,All,25-34,art,Campaign_42_Summer,2025-06-08,2025-07-25,47,7918.04,209,16,1679,49,8,6
+168,39,Facebook,Image,Male,All,"travel, finance",Campaign_39_Q3,2025-05-18,2025-07-27,70,55638.18,198,20,1740,58,9,6
+169,17,Facebook,Video,Female,All,art,Campaign_17_Launch,2025-04-22,2025-07-18,87,86675.92,204,18,1741,52,10,13
+170,40,Instagram,Image,Male,35-44,sports,Campaign_40_Summer,2025-03-04,2025-04-20,47,53936.41,206,20,1659,56,8,12
+171,13,Instagram,Stories,Male,All,health,Campaign_13_Winter,2025-04-19,2025-07-01,73,21855.42,196,21,1686,65,11,9
+172,9,Facebook,Stories,Female,18-24,fitness,Campaign_9_Launch,2025-05-25,2025-07-13,49,40094.07,189,25,1689,43,12,11
+173,47,Facebook,Stories,Male,All,"gaming, food",Campaign_47_Launch,2025-06-17,2025-09-03,78,69493.36,194,23,1768,64,10,10
+174,27,Facebook,Carousel,Female,35-44,"travel, finance",Campaign_27_Q3,2025-02-13,2025-04-02,48,12986.3,199,18,1647,54,15,10
+175,3,Facebook,Image,Male,25-34,"lifestyle, fitness",Campaign_3_Winter,2025-05-04,2025-06-29,56,14343.25,198,22,1693,60,8,9
+176,13,Instagram,Video,All,25-34,technology,Campaign_13_Winter,2025-04-19,2025-07-01,73,21855.42,198,20,1761,51,10,15
+177,46,Instagram,Carousel,Female,35-44,travel,Campaign_46_Winter,2025-05-10,2025-08-07,89,94023.76,189,24,1712,49,6,10
+178,24,Facebook,Stories,All,18-24,art,Campaign_24_Summer,2025-03-30,2025-05-23,54,56692.87,205,20,1749,56,11,11
+179,5,Instagram,Stories,All,35-44,art,Campaign_5_Launch,2025-07-11,2025-08-28,48,68376.69,177,27,1686,76,16,10
+180,47,Instagram,Image,Male,18-24,"finance, sports",Campaign_47_Launch,2025-06-17,2025-09-03,78,69493.36,210,25,1717,69,18,14
+181,37,Instagram,Stories,Male,35-44,"gaming, art",Campaign_37_Launch,2025-05-18,2025-08-01,75,46445.2,200,20,1702,48,6,7
+182,44,Instagram,Image,Female,35-44,"fashion, news",Campaign_44_Q3,2025-07-14,2025-09-22,70,15914.87,208,22,1691,65,5,9
+183,20,Instagram,Stories,All,All,gaming,Campaign_20_Winter,2025-02-17,2025-05-18,90,98904.66,186,21,1744,56,6,13
+184,40,Instagram,Image,Male,25-34,travel,Campaign_40_Summer,2025-03-04,2025-04-20,47,53936.41,221,20,1642,67,10,16
+185,36,Instagram,Carousel,Female,All,"sports, food",Campaign_36_Q3,2025-03-07,2025-05-13,67,58801.99,200,21,1735,56,7,11
+186,9,Facebook,Carousel,All,All,fitness,Campaign_9_Launch,2025-05-25,2025-07-13,49,40094.07,208,17,1797,54,13,6
+187,31,Facebook,Image,All,25-34,art,Campaign_31_Summer,2025-05-27,2025-07-22,56,72208.34,194,21,1635,65,13,13
+188,9,Instagram,Image,Female,18-24,"sports, health",Campaign_9_Launch,2025-05-25,2025-07-13,49,40094.07,215,18,1735,57,7,8
+189,41,Facebook,Image,All,All,"fashion, technology",Campaign_41_Winter,2025-04-02,2025-06-12,71,85220.35,182,18,1752,55,18,8
+190,33,Facebook,Image,Male,18-24,"photography, technology",Campaign_33_Summer,2025-04-08,2025-07-04,87,59264.68,176,22,1691,55,16,7
+191,19,Facebook,Image,All,25-34,lifestyle,Campaign_19_Winter,2025-03-06,2025-05-15,70,33182.45,223,26,1710,54,6,10
+192,47,Facebook,Carousel,Female,35-44,fashion,Campaign_47_Launch,2025-06-17,2025-09-03,78,69493.36,207,20,1805,58,9,9
+193,5,Instagram,Carousel,All,25-34,finance,Campaign_5_Launch,2025-07-11,2025-08-28,48,68376.69,192,21,1661,70,10,10
+194,41,Facebook,Image,All,18-24,"food, travel",Campaign_41_Winter,2025-04-02,2025-06-12,71,85220.35,209,25,1748,47,9,8
+195,9,Instagram,Carousel,Female,35-44,"technology, fashion",Campaign_9_Launch,2025-05-25,2025-07-13,49,40094.07,199,24,1756,64,8,3
+196,12,Facebook,Stories,Male,35-44,"gaming, sports",Campaign_12_Q3,2025-03-08,2025-06-01,85,30525.65,212,20,1691,60,5,16
+197,9,Facebook,Stories,All,All,"lifestyle, gaming",Campaign_9_Launch,2025-05-25,2025-07-13,49,40094.07,215,20,1691,68,13,3
+198,34,Facebook,Video,All,35-44,"fitness, lifestyle",Campaign_34_Winter,2025-07-10,2025-09-08,60,26104.3,205,16,1668,56,14,5
+199,15,Instagram,Video,Male,25-34,"art, news",Campaign_15_Launch,2025-03-21,2025-06-11,82,85407.23,198,20,1699,48,9,8
+200,44,Instagram,Carousel,Male,18-24,photography,Campaign_44_Q3,2025-07-14,2025-09-22,70,15914.87,184,27,1665,52,13,10

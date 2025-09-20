@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block styles %}
+<style>
+    .auth-wrap { display: flex; align-items: center; justify-content: center; padding: 40px 16px; }
+    .auth-card { width: 100%; max-width: 420px; }
+    .auth-card .heading { text-align: center; margin-bottom: 10px; }
+    .auth-card .sub { text-align: center; color: var(--muted); margin-bottom: 20px; }
+    form.auth { display: flex; flex-direction: column; gap: 14px; }
+    label { font-weight: 600; font-size: .95rem; }
+    input { padding: 12px; border: 1px solid var(--border); background: var(--card); color: var(--text); border-radius: 10px; }
+    input:focus { outline: none; box-shadow: 0 0 0 4px var(--ring); border-color: var(--primary); }
+    .flash { padding: 12px 14px; border-radius: 10px; margin-bottom: 10px; border: 1px solid var(--border); background: #ecfdf5; color: #065f46; }
+    .alt { text-align: center; color: var(--muted); margin-top: 12px; }
+    .alt a { color: var(--primary); text-decoration: none; font-weight: 600; }
+    .auth-btn { width: 100%; }
+    .card { overflow: hidden; }
+    .card-pad { padding: 24px; }
+    .card-header { padding: 18px 24px; border-bottom: 1px solid var(--border); background: linear-gradient(180deg, rgba(37,99,235,.08), transparent); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="auth-wrap container">
+    <div class="auth-card card">
+        <div class="card-header"><strong>Welcome back</strong></div>
+        <div class="card-pad">
+            <h1 class="heading">Sign in</h1>
+            <p class="sub">Access your dashboard and tools</p>
+
+            {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="flash {{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+            {% endwith %}
+
+            <form class="auth" method="POST">
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button class="btn auth-btn" type="submit">Sign in</button>
+            </form>
+            <p class="alt">Don't have an account? <a href="{{ url_for('signup') }}">Create one</a></p>
+        </div>
+    </div>
+    </div>
+</div>
+{% endblock %}

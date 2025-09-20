@@ -1,0 +1,145 @@
+{% extends "layout.html" %}
+
+{% block title %}Welcome to Social Sphere{% endblock %}
+
+{% block styles %}
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+    /* These styles apply only to the landing page content block */
+    .landing-hero {
+        flex-grow: 1;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        background: url('https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    }
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .hero-content {
+        position: relative;
+        z-index: 10;
+        max-width: 800px;
+        padding: 20px;
+    }
+    .hero-content h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.5em;
+        margin-bottom: 20px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .hero-content p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3em;
+        margin-bottom: 40px;
+        font-weight: 400;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-button {
+        font-family: 'Poppins', sans-serif;
+        background-color: #007bff;
+        color: white;
+        padding: 15px 35px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: 600;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+    }
+    .hero-button:hover {
+        background-color: #0056b3;
+        transform: translateY(-3px);
+    }
+
+    /* --- NEW: Feature Section Styles --- */
+    .feature-section {
+        padding: 80px 40px;
+        text-align: center;
+        background-color: #ffffff;
+    }
+    .feature-section h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.8em;
+        color: #333;
+        margin-bottom: 50px;
+    }
+    .feature-cards {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .feature-card {
+        background: #f8f9fa;
+        padding: 30px;
+        border-radius: 10px;
+        width: 300px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+    .feature-card .icon {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    .feature-card h3 {
+        font-family: 'Poppins', sans-serif;
+        color: #007bff;
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+    .feature-card p {
+        color: #666;
+        line-height: 1.6;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="landing-hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Unlock Your Ad Potential</h1>
+        <p>Leverage the power of AI to predict, optimize, and supercharge your social media advertising campaigns.</p>
+        <a href="{{ url_for('signup') }}" class="hero-button">Get Started For Free</a>
+    </div>
+</div>
+
+<div class="feature-section">
+    <h2>Powerful Features at Your Fingertips</h2>
+    <div class="feature-cards">
+        <div class="feature-card">
+            <div class="icon">🔮</div>
+            <h3>AI Prediction</h3>
+            <p>Predict campaign performance before launch to optimize your budget and strategy.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">📊</div>
+            <h3>Audience Insights</h3>
+            <p>Understand your audience deeper with advanced analytics and demographic breakdowns.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">📈</div>
+            <h3>Performance Dashboard</h3>
+            <p>Monitor your campaigns with real-time data and key performance indicators.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

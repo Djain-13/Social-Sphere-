@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+
+{% block title %}Audience Insights{% endblock %}
+
+{% block styles %}
+    <style>
+        h1 { text-align: center; }
+        .chart-container { display: grid; gap: 20px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 20px; }
+        @media (max-width: 900px) { .chart-container { grid-template-columns: 1fr; } }
+        .chart { background: var(--card); padding: 20px; border-radius: 12px; border: 1px solid var(--border); }
+        .chart h2 { margin-top: 0; }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Audience Insights</h1>
+        <div class="chart-container">
+            <div class="chart">
+                <h2>Purchases by Age Group</h2>
+                <canvas id="ageChart"></canvas>
+            </div>
+            <div class="chart">
+                <h2>Purchases by Gender</h2>
+                <canvas id="genderChart"></canvas>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        // Data passed from our Python route
+        const ageLabels = {{ age_labels|tojson }};
+        const ageData = {{ age_data|tojson }};
+        const genderLabels = {{ gender_labels|tojson }};
+        const genderData = {{ gender_data|tojson }};
+
+        // Create Age Group Chart (Bar Chart)
+        new Chart(document.getElementById('ageChart'), {
+            type: 'bar',
+            data: {
+                labels: ageLabels,
+                datasets: [{
+                    label: '# of Purchases',
+                    data: ageData,
+                    backgroundColor: 'rgba(54, 162, 235, 0.6)'
+                }]
+            }
+        });
+
+        // Create Gender Chart (Pie Chart)
+        new Chart(document.getElementById('genderChart'), {
+            type: 'pie',
+            data: {
+                labels: genderLabels,
+                datasets: [{
+                    label: '# of Purchases',
+                    data: genderData,
+                    backgroundColor: ['rgba(255, 99, 132, 0.6)', 'rgba(54, 162, 235, 0.6)', 'rgba(255, 206, 86, 0.6)']
+                }]
+            }
+        });
+    </script>
+{% endblock %}
